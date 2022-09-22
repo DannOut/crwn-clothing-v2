@@ -1,11 +1,11 @@
-import './Categories-container.styles.scss';
+import './Directory.styles.scss';
 import React from 'react';
 import Categories from '../../data/Categories';
 import CategoryItem from '../category-item/Category-Item.component';
 
-function CategoriesContainer() {
+function Directory() {
   return (
-    <div className="categories-container">
+    <div className="directory-container">
       {Categories.map((category) => (
         <CategoryItem category={category} key={category.id} />
       ))}
@@ -13,4 +13,4 @@ function CategoriesContainer() {
   );
 }
 
-export default CategoriesContainer;
+export default Directory;

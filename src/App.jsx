@@ -1,10 +1,10 @@
 import React from 'react';
-import CategoriesContainer from './components/category-container/Categories-container.component';
+import Directory from './components/directory/Directory.component';
 
 function App() {
   return (
     <div>
-      <CategoriesContainer />
+      <Directory />
     </div>
   );
 }
